@@ -10,19 +10,11 @@ public class PlayerController : MonoBehaviour
     
     [SerializeField] float speed = 5.0f; 
     
-<<<<<<< HEAD
-    [SerializeField][Range(0.0f, 0.5f)] float mouse_smooting = 0.5f;   
-    Vector2 current_mouse_delta = Vector2.zero;
-    Vector2 current_mouse_delta_velocity = Vector2.zero;
-
-    [SerializeField][Range(0.0f, 1.0f)] float move_smooting = 0.5f;
-=======
     [SerializeField][Range(0.0f, 0.5f)] float mouse_smooting = 0.0f;   
     Vector2 current_mouse_delta = Vector2.zero;
     Vector2 current_mouse_delta_velocity = Vector2.zero;
 
     [SerializeField][Range(0.0f, 1.0f)] float move_smooting = 0.2f;
->>>>>>> dev
     Vector3 current_dir = Vector2.zero;
     Vector3 current_dir_velocity = Vector2.zero;
 
