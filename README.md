@@ -1,2 +1,6 @@
 # thesis
-this is parker test
+
+
+Git conventions for this project:
+
+![flow](./READMEimage/git-flow.jpeg)
