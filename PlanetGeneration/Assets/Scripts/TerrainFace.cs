@@ -47,7 +47,7 @@ public class TerrainFace {
                     triangles[triIndex + 5] = i + resolution + 1;
                     triIndex += 6;
                 }
-            } //test
+            }
         }
         mesh.Clear();
         mesh.vertices = vertices;
